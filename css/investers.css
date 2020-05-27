@@ -1,0 +1,187 @@
+@media screen and (max-width: 1440px) {
+  .investers-content {
+    width: 100%;
+    height: 954px;
+
+    padding-top: 30px;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin: 0, auto;
+
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .investers-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+  }
+
+  .investers-list .box {
+    width: 528px;
+    height: 283px;
+    left: calc(50% - 528px / 2 - 304px);
+    top: 208px;
+
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+  }
+
+  .YC-logo {
+    width: 358px;
+    height: 101px;
+    margin-top: 95px;
+  }
+
+  .MHV-logo {
+    width: 275px;
+    height: 137px;
+    margin-top: 60px;
+  }
+
+  .STRIVE-logo {
+    width: 226px;
+    height: 55px;
+    margin-top: 115px;
+  }
+
+  .wavemaker-logo {
+    width: 304px;
+    height: 140px;
+    margin-top: 68px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .investers-content {
+    width: 100%;
+    height: 531px;
+    padding: 0;
+    margin: 0, auto;
+
+    background-size: contain;
+  }
+
+  .investers-content .title {
+    width: 100%;
+    height: 150px;
+    padding-top: 55px;
+    padding-bottom: 50px;
+    margin: 0px;
+  }
+
+  .investers-content .title h1 {
+    height: 30px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .investers-list {
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+
+  .investers-list .box {
+    width: 272px;
+    height: 145.79px;
+    left: calc(50% - 272px / 2 - 163px);
+    top: 126px;
+  }
+
+  .YC-logo {
+    width: 220px;
+    height: 62px;
+    margin-top: 44px;
+  }
+
+  .MHV-logo {
+    width: 172px;
+    height: 86px;
+    margin-top: 25px;
+  }
+
+  .STRIVE-logo {
+    width: 160px;
+    height: 39px;
+    margin-top: 54px;
+  }
+
+  .wavemaker-logo {
+    width: 187px;
+    height: 86px;
+    margin-top: 28px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .investers-content {
+    width: 100%;
+    height: 863px;
+    padding: 0;
+    margin: 0, auto;
+
+    background-size: contain;
+  }
+
+  .investers-content .title {
+    width: 100%;
+    height: 68px;
+    padding: 0px;
+    margin: 0, auto;
+  }
+
+  .investers-content .title h1 {
+    width: 100%;
+    height: 30px;
+    font-size: 28px;
+    line-height: normal;
+  }
+
+  .investers-list {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+
+  .investers-list .box {
+    width: 272px;
+    height: 145.79px;
+    left: calc(50% - 272px / 2);
+    top: 107px;
+    margin-bottom: 40px;
+  }
+
+  .investers-list .office {
+    padding-top: 23px;
+  }
+
+  .YC-logo {
+    width: 220px;
+    height: 62px;
+    margin-top: 44px;
+  }
+
+  .MHV-logo {
+    width: 172px;
+    height: 86px;
+    margin-top: 25px;
+  }
+
+  .STRIVE-logo {
+    width: 160px;
+    height: 39px;
+    margin-top: 54px;
+  }
+
+  .wavemaker-logo {
+    width: 187px;
+    height: 86px;
+    margin-top: 28px;
+  }
+}

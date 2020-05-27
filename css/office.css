@@ -1,0 +1,179 @@
+@media screen and (max-width: 1440px) {
+  .office-content {
+    width: 100%;
+    height: 780px;
+    padding-top: 80px;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin: 0, auto;
+
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  .office-content .title {
+    margin-bottom: 67px;
+  }
+
+  .office-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .office-list .box {
+    width: 528px;
+    height: 283px;
+    left: calc(50% - 528px / 2 - 304px);
+    top: 208px;
+
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+  }
+
+  .office-list .office {
+    padding-top: 35px;
+  }
+
+  .office-list .office img {
+    height: 80px;
+  }
+
+  .office-list .offce h2 {
+    width: 100%;
+    height: 42px;
+
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 34px;
+    text-align: center;
+
+    color: #002240;
+  }
+
+  .office-list .office p {
+    width: 100%;
+    font-size: 18px;
+    line-height: 32px;
+
+    text-align: center;
+
+    color: #002240;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .office-content {
+    width: 100%;
+    height: 423px;
+    padding: 0;
+    margin: 0, auto;
+
+    background-size: cover;
+  }
+
+  .office-content .title {
+    width: 100%;
+    height: 150px;
+    padding-top: 55px;
+    padding-bottom: 61px;
+    margin: 0px;
+  }
+
+  .office-content .title h1 {
+    height: 30px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .office-list {
+    justify-content: space-evenly;
+  }
+
+  .office-list .box {
+    width: 271px;
+    height: 199px;
+    left: calc(50% - 271px / 2 + 0.5px);
+    top: 96px;
+    margin-bottom: 37px;
+  }
+
+  .office-list .office img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .office-list .offce h2 {
+    height: 42px;
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .office-list .office p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .office-content {
+    width: 100%;
+    height: 583px;
+    padding: 0;
+    margin: 0, auto;
+    padding-top: 33px;
+    background-size: cover;
+  }
+
+  .office-content .title {
+    width: 100%;
+    height: 30px;
+    padding: 0px;
+    margin: 0, auto;
+    margin-bottom: 20px;
+  }
+
+  .office-content .title h1 {
+    width: 100%;
+    height: 30px;
+    font-size: 28px;
+    line-height: normal;
+  }
+
+  .office-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .office-list .box {
+    width: 271px;
+    height: 199px;
+    left: calc(50% - 271px / 2 + 0.5px);
+    top: 96px;
+    margin-bottom: 37px;
+  }
+
+  .office-list .office {
+    padding-top: 23px;
+  }
+
+  .office-list .office img {
+    width: 56px;
+    height: 56px;
+  }
+
+  .office-list .offce h2 {
+    height: 42px;
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .office-list .office p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
